@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+   padding: 0;
+
+                
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.d1
+{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+   height: 100vh;
+}
+.f{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    margin-top: 50px
+}
+.f1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.d2{
+    margin: 50px;
+    text-align: center;
+}
+.d2 h1{
+    color: rgb(66, 163, 207);
+    font-size: 60px;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.l
+{
+    font-size: 15px;
+    text-align: right;
+    padding-right: 100px;
+}
+button
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border: none;
+}
+fieldset,button{
+    height: 30px;
+    border-radius: 5px;
+}
+fieldset{
+    border: 1px solid rgb(66, 163, 207);
+    text-align: left;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 70px;
+}
+.Lo{
+    background-color:rgb(66, 163, 207);
+    height: 35px;
+    width: 100px;
+}
